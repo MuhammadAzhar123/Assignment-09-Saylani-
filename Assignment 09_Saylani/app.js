@@ -1527,16 +1527,18 @@
 // }
 
 
-// function zoomIn() {
-//     var editImage = document.getElementById("editImage");
-//     editImage.style.width = "400px";
-//     editImage.style.height = "400px";
-// }
-
-// function zoomOut() {
-//     var editImage = document.getElementById("editImage");
-//     editImage.style.width = "300px";
-//     editImage.style.height = "300px";
+// function zoom(a) {
+//     var imgId = document.getElementById("img");
+//     var imgCurrentWidth = imgId.clientWidth;
+//     var imgCurrentHeight = imgId.clientHeight;
+//     if(a.id === "zoomIn"){
+//         imgId.style.width = (imgCurrentWidth + 10) + "px";
+//         imgId.style.height = (imgCurrentHeight + 10) + "px";
+//     }
+//     else if(a.id === "zoomOut"){
+//         imgId.style.width = (imgCurrentWidth - 10) + "px";
+//         imgId.style.height = (imgCurrentHeight - 10) + "px";
+//     }
 // }
 
 
